@@ -1,0 +1,36 @@
+# Godot-specific
+*.import            # Import metadata for assets (regenerated on import)
+.import/            # Directory for import data (Godot 4+)
+/export/            # Exported game builds
+export_presets.cfg  # Export settings (project-specific, not boilerplate-friendly)
+*.log               # Godot logs (e.g., editor.log)
+*.tmp               # Temporary files
+*.bak               # Backup files
+*.mono/             # Mono/C# build files (if you’re not using C#)
+godot.*/            # Godot cache directories (e.g., godot.cache)
+
+# OS-specific
+.DS_Store           # macOS Finder metadata
+Thumbs.db           # Windows thumbnail cache
+*.swp               # Vim swap files
+*.swo               # Vim swap files
+
+# IDE/Editor files
+*.vscode/           # Visual Studio Code settings
+*.idea/             # JetBrains IDEs (e.g., IntelliJ, CLion)
+*.sublime-*         # Sublime Text project files
+*.code-workspace    # VS Code workspace files
+
+# Build tools and dependencies
+/addons/*/build/    # Build output from addons (if they compile stuff)
+/addons/*/bin/      # Binary outputs from addons
+*.zip               # Downloaded or generated zips (e.g., addon downloads)
+
+# Documentation and misc
+*.md.bak            # Backup markdown files (some editors create these)
+/doc/               # Generated documentation (if you use Godot’s doc tools)
+/screenshots/       # Screenshots taken in-editor
+
+# Custom exclusions (uncomment if needed)
+# /assets/import/    # If you manually import assets outside Godot
+# *.blend1           # Blender backup files (if you store .blend files in repo)
